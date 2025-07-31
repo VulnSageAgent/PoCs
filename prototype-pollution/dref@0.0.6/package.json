@@ -1,0 +1,17 @@
+{
+  "name": "dref@0.0.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VulnSageAgent/PoCs.git"
+  },
+  "dependencies": {
+    "dref": "0.0.6"
+  },
+  "private": true
+}
