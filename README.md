@@ -1,9 +1,9 @@
 # PoCs
 
-## /prototype-pollution
+## Prototype Pollution
 
 ```shell
-cd ./prototype-pollution/CASE_DIR
+cd /path/to/PoCs/JavaScript/prototype-pollution/CASE_DIR
 npm install
 node index.js
 ```
