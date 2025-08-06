@@ -1,0 +1,1 @@
+require("ts-fns").assign({}, "__proto__.injectedProp", "pollutedValue"); console.log({}.injectedProp !== undefined ? '[POLLUTION_TRIGGERED]':'')

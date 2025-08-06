@@ -1,0 +1,1 @@
+require("node-cube/cycle_check").setRequires("injectedProp", ["__proto__"]); console.log({}.injectedProp !== undefined ? '[POLLUTION_TRIGGERED]':'')

