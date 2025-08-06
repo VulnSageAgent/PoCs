@@ -8,3 +8,9 @@ require("csvjson/src/helper").toCsv(data, table, "__proto__", "pollutedProperty"
 
 // Verification
 console.log({}.pollutedProperty !== undefined ? '[POLLUTION_TRIGGERED]':'');
+
+
+
+
+require("csvjson/src/helper").addDataInSchema("__proto__.pollutedProp", "pollutedValue", {}, ",", "\"");
+console.log({}.pollutedProp !== undefined ? '[POLLUTION_TRIGGERED]':'');

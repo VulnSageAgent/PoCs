@@ -1,0 +1,18 @@
+{
+  "name": "pnpm/manifest-utils@3.1.6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VulnSageAgent/PoCs.git"
+  },
+  "dependencies": {
+    "@pnpm/manifest-utils": "1001.0.3",
+    "@pnpm/logger": "1001.0.0"
+  },
+  "private": true
+}
